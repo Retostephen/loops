@@ -81,7 +81,7 @@ order_summary = {
 
 print(f"Order Summary for {order_summary['customer_name']}")
 print(f"Original Order Amount: {order_summary['original_amount']}")
-print(f"Discount Applied: {order_summary['discount_percentage']}% ({order_summary['final_discount_amount']:.2f})")
+print(f"Discount Applied: {order_summary['discount_percentage']}%")
 print(f"Final Amount: {order_summary['final_amount_after_discount']:.2f}")
 if order_summary["freebie"]:
     print(f"Freebie: {order_summary['freebie']}")
