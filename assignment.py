@@ -73,6 +73,7 @@ for student in students:
 	
 print()
 
+
 print(f"Student with High Performance ===> {len(High_performance[:])}")
 print()
 print(f"Student with Average performance ===> {len(Average_performance[:])}")
