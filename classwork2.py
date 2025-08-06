@@ -16,7 +16,7 @@ else:
 '''
 
 
-# ATM Withdrawal Program
+# ATM Withdrawal Execution Program
 
 # Initial balance
 balance = 10000 
