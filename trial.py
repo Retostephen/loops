@@ -55,7 +55,13 @@ if password == confirm_password:
 else:
 	print("Passwords Doesn't Match")
 
+user = ["core", "tk", "mp"]
+user_name = input("Please enter your username: ")
 
+if user_name in user:
+	print("User Exist")
+else:
+	print("User doesn't exist")
 
 
 
