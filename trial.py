@@ -91,6 +91,8 @@ is_verified
 #if register is chosen: ask for username (check if username doesn't exist and proceed to next step) and password and also balance. by default, is_verified = False. if asked to be verified and option selected yes (balance should be checked and if it's not upto the verification amount, print, insufficient amount, else deduct from balance and mark verified. If the user doesn't want to be verified, skip to login)
 #after succesful registeration, prompt user to login
 
-
+#BLUEPRINT TO THE ASSIGNMENT
+#login >>>>> username/password >>>>[user database]>>>> login >>>>>>> display details
+#register >>>>> username/password/balance >>>>[user database]>>>> register/is_verified = False >>>>> add to users database >>>>> want is_verified = True? >>>>> check if balance >= verification_amount then proceed or balance < verification_amount(print(details))
 
 
